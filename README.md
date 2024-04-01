@@ -1,3 +1,8 @@
+# Deployment
+⚠️ Warning:
+We do not deploy admin on vercel as it may contain personal info.
+Feel free to tweak with your google account in the source code.
+
 # Prerequisites
 
 
