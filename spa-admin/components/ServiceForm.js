@@ -89,7 +89,12 @@ export default function ServiceForm({
             >
                 <option value="">Không có</option>
                 {categories.length > 0 && categories.map(c => (
-                    <option value={c._id}>{c.name}</option>
+                    <option
+                        value={c._id}
+                        key={c.name}
+                    >
+                        {c.name}
+                    </option>
                 ))}
                 <option value=""></option>
             </select>
