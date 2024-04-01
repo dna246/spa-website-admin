@@ -25,7 +25,7 @@ export default function DeleteServicePage() {
     }
     return (
         <Layout>
-            <h1 className="text-center">Do you really want to delete &quot;"{serviceInfo?.title}"&quot;?</h1>
+            <h1 className="text-center">Do you really want to delete &quot;{serviceInfo?.title}&quot;?</h1>
             <div className="flex gap-2 justify-center">
                 <button className="btn-red" onClick={deleteService}>Yes</button>
                 <button className="btn-default" onClick={goBack}>No</button>
